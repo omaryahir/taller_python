@@ -1,7 +1,7 @@
 def avisar(f):    
     def inner(*args, **kwargs):
+        print "AVISAR: Se ha ejecutado %s" % f.__name__
         f(*args, **kwargs)
-        print "<Se ha ejecutado %s>" % f.__name__
     return inner 
 
 
