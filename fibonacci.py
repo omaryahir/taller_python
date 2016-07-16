@@ -39,3 +39,16 @@ for value in fibonacci_yield():
        print "The position is %s (0 is the first)" % position
        break
     position += 1
+
+
+"""
+OUTPUT:
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34... did anyone watch lost?
+The position is 9 (0 is the first)
+
+---- YIELD ---- 
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34... did anyone watch lost?
+The position is 9 (0 is the first)
+
+"""
